@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    background-color: #f5f5f5;
+}
+
+.btn{
+    padding: 13px 0px;
+    background: #4F372D;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    border: none;
+
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 400;
+}
+
+.btn:hover{
+    background: #C95618;
+    color: #fff;
+}
+
+/* Navbar */
+.nav-link{
+    text-decoration: none;
+    color: #3A230D;
+}
+
+.link-secondary{
+    color: #C95618;
+    font-weight: 600;
+}
+
+.nav-link:hover{
+    color: #C95618;
+}
+
+/* hero */
+.hero{
+    width: 100%;
+    height: auto;
+}
+.hero .left, .right{
+    width: 50%;
+}
+
+.left h1{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 45px;
+
+    color: #3A230D;
+}
+
+.left p{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+
+    color: #929292;
+}
+
+.title{
+    font-weight: bolder;
+    font-size: 24px;
+    line-height: 30px;
+    align-items: center;
+    text-align: center; 
+
+    color: #4F372D;
+}
+
+.sub-title{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 25px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.07em;
+
+    color: #626262;
+}
+
+/* product */
+.product{
+    width: 100%;
+    height: auto;
+    padding: 50px 0px;
+}
+
+.prodDetail h6{
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 19px;
+
+    color: #313030;
+}
+
+.prodDetail p{
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+
+    /* text-kecil */
+
+    color: #626262;
+}
