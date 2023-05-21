@@ -47,11 +47,12 @@ body{
     width: 100%;
     height: auto;
 }
-.hero .left, .right{
+
+.left, .right{
     width: 50%;
 }
 
-.left h1{
+.hero h1{
     font-weight: 700;
     font-size: 36px;
     line-height: 45px;
@@ -59,7 +60,7 @@ body{
     color: #3A230D;
 }
 
-.left p{
+.hero p{
     font-weight: 500;
     font-size: 14px;
     line-height: 18px;
@@ -89,7 +90,7 @@ body{
 }
 
 /* product */
-.product{
+.product, .about, .testimonial, .testiCard{
     width: 100%;
     height: auto;
     padding: 50px 0px;
@@ -111,4 +112,46 @@ body{
     /* text-kecil */
 
     color: #626262;
+}
+
+/* about */
+.aboutTitle hr{
+    width: 55px;
+    height: 0px;
+
+    border: 2px solid #4F372D;
+}
+
+.about h1{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+
+    /* Primary */
+    color: #4F372D;
+}
+
+.about p{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 29px;
+    /* or 29px */
+
+    letter-spacing: 0.015em;
+
+    /* content */
+    color: #313030;
+    margin-bottom: 0;
+}
+
+.right p{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 29px;
+    /* or 29px */
+
+    letter-spacing: 0.015em;
+
+    /* content */
+    color: #313030;
 }
